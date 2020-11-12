@@ -36,7 +36,13 @@ class Main extends Component{
             posts: state.posts.filter(post => post!==postRemoved ) //usunie Usuniety post z tablicy i wyswietli zupdatowana tablice
         }))
     }
+    //metoda addPhoto
 
+    addPhoto(postSubmitted) {
+        this.setState(state => ({
+            posts: state.posts.concat([postSubmitted])
+        }))
+    }
 
     
     //Jesli mam do renderowania wiecej niz 1 komponent-> wtedy uzywam metody render();Jelsi jest tylko 1 komponent, moge uzyc component prop do renderowania
