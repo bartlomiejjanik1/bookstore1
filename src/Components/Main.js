@@ -56,7 +56,7 @@ class Main extends Component{
 
                 <Route path = "/AddPhoto" render = {() => (
                     <AddPhoto onAddPhoto= {(addedPost) => {
-                        console.log(addedPost)
+                        this.addPhoto(addedPost)
                     }} />
                 )}  />        
             </div>
