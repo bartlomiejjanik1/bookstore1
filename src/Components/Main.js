@@ -47,23 +47,16 @@ class Main extends Component{
 
     render() {
       return <div> 
-        
-        {
-            this.state.screen === 'photos' && (
-            <div>
-
-                <Title title={'Biblioteka ksiazek'} />
-                <PhotoWall posts= {this.state.posts} onRemovePhoto={this.removePhoto} onNavigate ={this.navigate} />
-            </div>
-            )
-        }
-        {
-            this.state.screen === 'addPhoto' && (
+                 <Route path = "/" render={() => (
+                    <div>
+                        <Title title={'Biblioteka ksiazek'} />
+                        <PhotoWall posts= {this.state.posts} onRemovePhoto={this.removePhoto} onNavigate ={this.navigate} />
+                    </div>
+                )} />
+                    
             <div>
                 <AddPhoto />
             </div>
-            )
-        }
        </div>
     } // przekazanie metody removePhoto do komponentu PhotoWall jako prop
 }
