@@ -11,17 +11,14 @@ class Main extends Component{
             posts: [{
                 id: "0",
                 description: "Harry Potter",
-                price: "$50",
                 imageLink: "https://ecsmedia.pl/c/harry-potter-i-kamien-filozoficzny-tom-1-b-iext43794838.jpg"
                 }, {
                 id: "1",
                 description: "Maly Ksiaze",
-                price: "$20",
                 imageLink: "https://ecsmedia.pl/c/maly-ksiaze-wydanie-ekskluzywne-b-iext63192578.jpg"
                 },  {
                 id: "2",
                 description: "Szeroki obraz vacation",
-                price: "$30",
                 imageLink: "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/08/24/104670887-VacationExplainsTHUMBWEB.1910x1000.jpg"
                 }]
                 

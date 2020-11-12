@@ -10,9 +10,15 @@ class AddPhoto extends Component {
         event.preventDefault();
         const imageLink = event.target.elements.link.value
         const description = event.target.elements.description.value
-        const price = event.target.elements.price.value
-        if (description && imageLink){
+        
+        const post = {
+            id: 0,
+            description: description,
+            imageLink: imageLink,
             
+        }
+        if (description && imageLink){
+            this.props.onAddPhoto(post)
         }
 
     }
@@ -25,7 +31,7 @@ class AddPhoto extends Component {
         <form onSubmit={this.handleSubmit}>  
             <input type = "text" placeholder="Link do zdjecia" name="link"/>
             <input type = "text" placeholder="Opis" name="description" />
-            <input type = "text" placeholder="Cena" name="price" />
+            
             <button> Dodaj </button>
         </form>
         </div>
