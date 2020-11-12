@@ -6,8 +6,8 @@ class AddPhoto extends Component {
         super()
         this.handleSubmit = this.handleSubmit.bind(this)
     }
-    handleSubmit() {
-
+    handleSubmit(event) {
+        event.preventDefault();
     
     }
 
