@@ -53,10 +53,13 @@ class Main extends Component{
                         <PhotoWall posts= {this.state.posts} onRemovePhoto={this.removePhoto} onNavigate ={this.navigate} />
                     </div>
                 )} />
-                    
-            <div>
-                <AddPhoto />
-            </div>
+
+                <Route path = "/AddPhoto" render = {() => (
+                    <div>
+                        <AddPhoto />
+                    </div>
+                )} />
+            
        </div>
     } // przekazanie metody removePhoto do komponentu PhotoWall jako prop
 }
