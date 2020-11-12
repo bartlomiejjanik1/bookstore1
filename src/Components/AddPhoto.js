@@ -10,6 +10,7 @@ class AddPhoto extends Component {
         event.preventDefault();
         console.log(event.target.elements.link.value)
         console.log(event.target.elements.description.value)
+        console.log(event.target.elements.price.value)
     }
 
     render() {
