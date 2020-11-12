@@ -18,8 +18,8 @@ class Main extends Component{
                 imageLink: "https://ecsmedia.pl/c/maly-ksiaze-wydanie-ekskluzywne-b-iext63192578.jpg"
                 },  {
                 id: "2",
-                description: "Szeroki obraz vacation",
-                imageLink: "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/08/24/104670887-VacationExplainsTHUMBWEB.1910x1000.jpg"
+                description: "Halny, Remigiusz Mroz",
+                imageLink: "https://ecsmedia.pl/c/halny-b-iext64559434.jpg"
                 }]
                 
         }
@@ -54,7 +54,7 @@ class Main extends Component{
                     </div>
                 )} />
 
-                <Route path = "/AddPhoto" render = {(history) => (
+                <Route path = "/AddPhoto" render = {({history}) => (
                     <AddPhoto onAddPhoto= {(addedPost) => {
                         this.addPhoto(addedPost)
                         history.push('/')
