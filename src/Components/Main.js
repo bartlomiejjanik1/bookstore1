@@ -10,7 +10,7 @@ class Main extends Component{
         this.state = {
             posts: [{
                 id: 0,
-                description: "Harry Potter",
+                description: "Harry Potter ",
                 imageLink: "https://ecsmedia.pl/c/harry-potter-i-kamien-filozoficzny-tom-1-b-iext43794838.jpg"
                 }, {
                 id: 1,
