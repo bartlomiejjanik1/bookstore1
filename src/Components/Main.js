@@ -23,11 +23,10 @@ class Main extends Component{
                 description: "Szeroki obraz vacation",
                 price: "$30",
                 imageLink: "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/08/24/104670887-VacationExplainsTHUMBWEB.1910x1000.jpg"
-                }],
-                screen: 'photos' //dwie wartosci photos lub addPhotos..
+                }]
+                
         }
         this.removePhoto = this.removePhoto.bind(this)
-        this.navigate = this.navigate.bind(this)
     }
     //metoda removeButtonzaktualizuje stan po nacisnie na Remove (w nowym stanie nie ebdzie juz usunietej ksiaki) 
 
@@ -38,12 +37,8 @@ class Main extends Component{
         }))
     }
 
-    navigate() {
-        this.setState({
-            screen: 'addPhoto'
-        })
 
-    }
+    
     //Jesli mam do renderowania wiecej niz 1 komponent-> wtedy uzywam metody render();Jelsi jest tylko 1 komponent, moge uzyc component prop do renderowania
     render() {
         return (
