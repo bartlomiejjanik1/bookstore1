@@ -1,12 +1,12 @@
 import React from 'react'
 import Photo from './Photo'
 import PropTypes from 'prop-types' //zaladujemy dependencies prop-types doinstalowany npmem
+import {Link} from 'react-router-dom'
 //anchor tag zeby utworzy hiperlink do powrotu na glowna stone..
 function PhotoWall(props) {
 return  <div>
-                    <a className = "addIcon" onClick={props.onNavigate} href="#AddPhoto" >  </a>
-                {/* <button onClick={props.onNavigate} className="addIcon">  </button> */}
-                <div className="photoGrid" >  
+                <Link className = "addIcon" to="/AddPhoto" >  </Link>
+               <div className="photoGrid" >  
                     {props.posts.map((post,index) => <Photo key={index} post={post} onRemovePhoto={props.onRemovePhoto} />)} 
                 </div>
         </div>
