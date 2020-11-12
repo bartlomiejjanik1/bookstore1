@@ -10,6 +10,7 @@ class AddPhoto extends Component {
             <input type = "text" placeholder="Link do zdjecia" />
             <input type = "text" placeholder="Opis" />
             <input type = "text" placeholder="Cena" />
+            <button> Dodaj </button>
         </form>
         </div>
     </div> 
