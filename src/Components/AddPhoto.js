@@ -12,7 +12,7 @@ class AddPhoto extends Component {
         const description = event.target.elements.description.value
         
         const post = {
-            id: 0,
+            id: Number(new Date()),
             description: description,
             imageLink: imageLink,
             
@@ -24,6 +24,7 @@ class AddPhoto extends Component {
     }
 
     render() {
+        
         return (
     <div>
         <h1> Biblioteka ksiazek </h1>

@@ -9,15 +9,15 @@ class Main extends Component{
         super()
         this.state = {
             posts: [{
-                id: "0",
+                id: 0,
                 description: "Harry Potter",
                 imageLink: "https://ecsmedia.pl/c/harry-potter-i-kamien-filozoficzny-tom-1-b-iext43794838.jpg"
                 }, {
-                id: "1",
+                id: 1,
                 description: "Maly Ksiaze",
                 imageLink: "https://ecsmedia.pl/c/maly-ksiaze-wydanie-ekskluzywne-b-iext63192578.jpg"
                 },  {
-                id: "2",
+                id: 2,
                 description: "Halny, Remigiusz Mroz",
                 imageLink: "https://ecsmedia.pl/c/halny-b-iext64559434.jpg"
                 }]
