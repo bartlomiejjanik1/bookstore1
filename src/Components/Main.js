@@ -28,7 +28,7 @@ class Main extends Component{
         this.removePhoto = this.removePhoto.bind(this)
         this.navigate = this.navigate.bind(this)
     }
-    //metoda removeButtonzaktualizuje stan po nacisnie na Remove (w nowym stanie nie ebdzie juz usunietej ksiaki)
+    //metoda removeButtonzaktualizuje stan po nacisnie na Remove (w nowym stanie nie ebdzie juz usunietej ksiaki) 
 
     removePhoto(postRemoved){
         console.log(postRemoved.description)
