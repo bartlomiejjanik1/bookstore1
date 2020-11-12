@@ -20,6 +20,10 @@ class Main extends Component{
                 id: 2,
                 description: "Halny, Remigiusz Mroz",
                 imageLink: "https://ecsmedia.pl/c/halny-b-iext64559434.jpg"
+                }, {
+                id: 4,
+                description: "Dwa Dni w Paryzu",
+                imageLink: "https://ecsmedia.pl/c/dwa-dni-w-paryzu-b-iext62889338.jpg"
                 }]
                 
         }
