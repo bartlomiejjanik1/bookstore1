@@ -44,9 +44,11 @@ class Main extends Component{
         })
 
     }
-
+    //Jesli mam do renderowania wiecej niz 1 komponent-> wtedy uzywam metody render();Jelsi jest tylko 1 komponent, moge uzyc component prop do renderowania
     render() {
-      return <div> 
+        return (
+      
+            <div> 
                  <Route path = "/" render={() => (
                     <div>
                         <Title title={'Biblioteka ksiazek'} />
@@ -54,14 +56,10 @@ class Main extends Component{
                     </div>
                 )} />
 
-                <Route path = "/AddPhoto" render = {() => (
-                    <div>
-                        <AddPhoto />
-                    </div>
-                )} />
-            
-       </div>
-    } // przekazanie metody removePhoto do komponentu PhotoWall jako prop
+                <Route path = "/AddPhoto" component = {AddPhoto} />        
+            </div>
+        )
+    } 
 }
 
 export default Main
