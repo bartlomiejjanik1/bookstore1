@@ -49,7 +49,7 @@ class Main extends Component{
         return (
       
             <div> 
-                 <Route path = "/" render={() => (
+                 <Route exact path = "/" render={() => (
                     <div>
                         <Title title={'Biblioteka ksiazek'} />
                         <PhotoWall posts= {this.state.posts} onRemovePhoto={this.removePhoto} onNavigate ={this.navigate} />
