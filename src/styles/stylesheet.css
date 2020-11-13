@@ -10,7 +10,7 @@ html {
 	    font-family: billabong, 'billabongregular';  
 	    text-align: center;  
 	    font-weight: 100;  
-	    font-size: 13rem;  
+	    font-size: 12rem;  
 	    margin: 2rem 0;  
 	    letter-spacing: -1px;  
 	    color: black;  
@@ -71,10 +71,7 @@ html {
 	    flex: 1 0 60%;  
 	    max-width: 60%;  
 	}  
-	.single-photo .comments {  
-	    flex: 1 0 40%;  
-	    max-width: 40%;  
-	}  
+  
 	.single-photo .photo {  
 	    width: 100%;  
 	    margin: 0;  
@@ -83,7 +80,8 @@ html {
 	    width: calc(100% + 4rem);  
 	    margin-left: -2rem;  
 	    margin-top: -2rem;  
-	    max-width: none;  
+		max-width: none;  
+		
 	}  
 	.comment{  
 	    width: 100%  

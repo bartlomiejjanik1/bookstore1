@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types' //zaladujemy dependencies prop-types doinstalowany npmem
+import Button from 'react-bootstrap/Button'
 
 function Photo(props){
         const post = props.post
@@ -8,10 +9,10 @@ function Photo(props){
                     <figcaption> <p> {post.description} </p> </figcaption>
                     <figcaption> <p> {post.price} </p> </figcaption>
                     <div className = "button-container">
-                    <button className ="remove-button" onClick ={() => { 
-                        props.onRemovePhoto(post)
-                    }}> Usuń </button>
-                    </div>
+                        <Button className ="remove-button" onClick ={() => { 
+                            props.onRemovePhoto(post)
+                            }}> Usuń </Button>
+                        </div>
             </figure>
 }
 
