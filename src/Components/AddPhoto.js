@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Button from 'react-bootstrap/Button'
 
 class AddPhoto extends Component {
 
@@ -33,7 +34,7 @@ class AddPhoto extends Component {
             <input type = "text" placeholder="Link do zdjecia" name="link"/>
             <input type = "text" placeholder="Opis" name="description" />
             
-            <button> Dodaj </button>
+            <Button> Dodaj </Button>
         </form>
         </div>
     </div> 

@@ -4,6 +4,7 @@ import PhotoWall from './PhotoWall'
 import AddPhoto from './AddPhoto'
 import {Route} from 'react-router-dom'
 
+
 class Main extends Component{
     constructor() {
         super()
@@ -55,6 +56,7 @@ class Main extends Component{
                     <div>
                         <Title title={'Biblioteka ksiazek'} />
                         <PhotoWall posts= {this.state.posts} onRemovePhoto={this.removePhoto} onNavigate ={this.navigate} />
+                        
                     </div>
                 )} />
 
