@@ -40,7 +40,7 @@ html {
 	    margin: 0 auto;  
 	}  
 	.figure {  
-		flex-basis: calc(33.333% - 4rem);  
+		flex-basis: calc(25% - 4rem);  
 		border: 1px solid #d3d3d3;  
 		padding: 2rem;  
 		flex-grow: 1;  
