@@ -8,9 +8,10 @@ function Photo(props){
         return <figure className="figure" >  
                     <img className="photo" src={post.imageLink} alt={post.description} />
                     <figcaption> <h2> {post.description} </h2> </figcaption>
-                    <div class="caption">
-                      <h3> {post.moredescription} </h3>
-					   <h3> <span class="pull-right"> ${post.price} </span></h3>
+                    <div className="caption">
+                        <hr></hr>
+                      <h5> {post.moredescription} </h5>
+					   <h3> <span className="pull-right"> ${post.price} </span></h3>
 					</div>
                     <figcaption>  </figcaption>
                     <div className = "button-container">

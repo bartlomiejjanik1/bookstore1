@@ -13,25 +13,25 @@ class Main extends Component{
             posts: [{
                 id: 0,
                 description: "Harry Potter ",
-                moredescription: "Ksiazka Haryy oparta o prawdziwe fakty..",
+                moredescription: "Powieść J.K. Rowling, opisując przygody młodocianego czarodzieja. Szkoła w dalekiej krainie, czary, przygody i przyjaciele.",
                 price: "300",
                 imageLink: "https://ecsmedia.pl/c/harry-potter-i-kamien-filozoficzny-tom-1-b-iext43794838.jpg"
                 }, {
                 id: 1,
                 description: "Maly Ksiaze",
-                moredescription: "Historia dziecka i jego snow..",
+                moredescription: "Bajka, której morał jest równie ważny dla dzieci jak i dorosłych. Niesamowita opowieść, pokazująca jak dorośli tracą radość z życia na rzecz dóbr materialnych.",
                 price: "110",
                 imageLink: "https://ecsmedia.pl/c/maly-ksiaze-wydanie-ekskluzywne-b-iext63192578.jpg"
                 },  {
                 id: 2,
                 description: "Halny, Remigiusz Mroz",
-                moredescription: "Wciagajacy thriller...",
+                moredescription: "Wciagajacy thriller osadzony w Tatrzańskich realiach. Gradka dla miłośników gór i powieści kryminalnych",
                 price: "580",
                 imageLink: "https://ecsmedia.pl/c/halny-b-iext64559434.jpg"
                 }, {
                 id: 4,
                 description: "Dwa Dni w Paryzu",
-                moredescription: "KRomantyczna opowiesc...",
+                moredescription: "Romantyczna opowiesc osadzona w Paryżu. Akcja toczy się w ciągu dwóch dni, gdzie główna bohaterka odkrywa miłość... ",
                 price: "900",
                 imageLink: "https://ecsmedia.pl/c/dwa-dni-w-paryzu-b-iext62889338.jpg"
                 }]
