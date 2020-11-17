@@ -39,7 +39,7 @@ class AddPhoto extends Component {
             <input type = "text" placeholder="Tytul Ksiazki" name="description" />
             <input type="number" min="0" max="9999" placeholder="Cena" name="price" />
             <input type = "text" placeholder="Opis ksiazki" name="moredescription" />
-            <button> Dodaj </button>
+            <button> Dodaj </button> 
         </form>
         </div>
     </div> 

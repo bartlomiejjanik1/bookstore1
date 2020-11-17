@@ -7,14 +7,14 @@ function Photo(props){
         const post = props.post
         return <figure className="figure" >  
                     <img className="photo" src={post.imageLink} alt={post.description} />
-                    <figcaption> <p> {post.description} </p> </figcaption>
+                    <figcaption> <h2> {post.description} </h2> </figcaption>
                     <div class="caption">
-                      <p> {post.moredescription} </p>
-					   <h4> <span class="pull-right"><p> ${post.price} </p></span></h4>
+                      <h3> {post.moredescription} </h3>
+					   <h3> <span class="pull-right"> ${post.price} </span></h3>
 					</div>
                     <figcaption>  </figcaption>
                     <div className = "button-container">
-                        <Button className ="remove-button" onClick ={() => { 
+                        <Button className ="remove-button"  onClick ={() => { 
                             props.onRemovePhoto(post)
                             }}> Usuń </Button>
                     </div>
