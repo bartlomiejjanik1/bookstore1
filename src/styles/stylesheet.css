@@ -48,6 +48,8 @@ html {
 		padding: 2rem;  
 		flex-grow: 1;  
 		margin: 0 2rem 2rem 2rem;  
+		max-width: 255px; 
+		
 	}  
 	.figure .single-photo {  
 	    flex-basis: calc(33.333% - 4rem);  
@@ -83,26 +85,12 @@ html {
 	    width: calc(100% + 4rem);  
 	    margin-left: -2rem;  
 	    margin-top: -2rem;  
-		max-width: none;  
+		max-width:none;
+		max-height:270px;
+		height: none;
 		
 	}  
-	.comment{  
-	    width: 100%  
-	}  
-	.comment p {  
-	    border-bottom: 1px solid #d3d3d3;  
-	    padding: 0.5rem 0;  
-	}  
-	.comment-form input,  
-	.comment-form textarea {  
-	    width: 100%;  
-	    border: 0;  
-	    font-size: 1.3rem;  
-	    padding: 1rem 0;  
-	    border-bottom: 1px solid #d3d3d3;  
-	    outline: none;  
-	    resize: vertical;  
-	}  
+  
 	.addIcon {  
 	    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;  
 	    background-size: contain;  
