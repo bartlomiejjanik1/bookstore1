@@ -3,6 +3,7 @@ import Title from './Title'
 import PhotoWall from './PhotoWall'
 import AddPhoto from './AddPhoto'
 import {Route} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 class Main extends Component{
@@ -12,18 +13,26 @@ class Main extends Component{
             posts: [{
                 id: 0,
                 description: "Harry Potter ",
+                moredescription: "Ksiazka Haryy oparta o prawdziwe fakty..",
+                price: "300",
                 imageLink: "https://ecsmedia.pl/c/harry-potter-i-kamien-filozoficzny-tom-1-b-iext43794838.jpg"
                 }, {
                 id: 1,
                 description: "Maly Ksiaze",
+                moredescription: "Historia dziecka i jego snow..",
+                price: "110",
                 imageLink: "https://ecsmedia.pl/c/maly-ksiaze-wydanie-ekskluzywne-b-iext63192578.jpg"
                 },  {
                 id: 2,
                 description: "Halny, Remigiusz Mroz",
+                moredescription: "Wciagajacy thriller...",
+                price: "580",
                 imageLink: "https://ecsmedia.pl/c/halny-b-iext64559434.jpg"
                 }, {
                 id: 4,
                 description: "Dwa Dni w Paryzu",
+                moredescription: "KRomantyczna opowiesc...",
+                price: "900",
                 imageLink: "https://ecsmedia.pl/c/dwa-dni-w-paryzu-b-iext62889338.jpg"
                 }]
                 
