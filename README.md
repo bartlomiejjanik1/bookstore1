@@ -3,10 +3,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm install`
 
 Po pobraniu paczki z moodle, należy rozpakować zawartość i uzyc npm install
