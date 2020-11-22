@@ -1,7 +1,7 @@
 
 # Projekt zaliczeniowy PW 2020.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Podstawa aplikacji był [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm install`
 
