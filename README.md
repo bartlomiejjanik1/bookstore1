@@ -1,3 +1,6 @@
+#Aplikacja dostepna jest pod adresem:
+
+http://bibliotekajanik.azurewebsites.net/
 
 # Projekt zaliczeniowy PW 2020.
 
